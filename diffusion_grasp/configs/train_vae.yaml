@@ -1,0 +1,22 @@
+dataset:
+  root_dir: "."
+  split: "train"
+pvcnn:  
+  num_points: 2048
+vae:
+  hidden_dim: 256
+  latent_len: 16
+  latent_dim: 512
+  num_heads: 8
+  num_layers: 4
+  num_grasps: 1024
+  grasp_dim: 7
+  condition_dim: 256
+loss:
+  kl_weight: 0.1
+train:
+  seed: 42
+  batch_size: 4
+  epoch: 30
+  learning_rate: 0.0001
+  weight_decay: 0.05
