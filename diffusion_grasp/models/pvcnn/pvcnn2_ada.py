@@ -3,8 +3,8 @@ import torch.nn as nn
 from torch.cuda.amp import custom_fwd, custom_bwd
 from typing import Optional, Union, Tuple
 from einops import rearrange
-import diffusion_grasp.model.pvcnn.functional as F
-from diffusion_grasp.diffusion_grasp.model.dit import Attention
+import diffusion_grasp.models.pvcnn.functional as F
+from diffusion_grasp.models.common import Attention
 
 
 class SE3d(nn.Module):

@@ -1,9 +1,9 @@
 import torch
 import torch.nn as nn
 from typing import Optional, Union
-from diffusion_grasp.diffusion_grasp.model.dit import Attention
-from diffusion_grasp.model.pvcnn.pvcnn2_ada import SharedMLP
-from diffusion_grasp.model.pvcnn.pointnet import (
+from diffusion_grasp.models.common import Attention
+from diffusion_grasp.models.pvcnn.pvcnn2_ada import SharedMLP
+from diffusion_grasp.models.pvcnn.pointnet import (
     create_mlp_components,
     create_pointnet2_sa_components,
     create_pointnet2_fp_modules

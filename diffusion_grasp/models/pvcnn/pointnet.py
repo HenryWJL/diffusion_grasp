@@ -2,8 +2,8 @@ import torch
 import torch.nn as nn
 from typing import Optional, Union, Tuple
 from functools import partial
-import diffusion_grasp.model.pvcnn.functional as F
-from diffusion_grasp.model.pvcnn.pvcnn2_ada import (
+import diffusion_grasp.models.pvcnn.functional as F
+from diffusion_grasp.models.pvcnn.pvcnn2_ada import (
     BallQuery,
     SharedMLP,
     PVConv

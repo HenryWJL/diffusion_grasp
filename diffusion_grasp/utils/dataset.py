@@ -12,7 +12,7 @@ from pathlib import Path
 from tqdm import tqdm
 from omegaconf import OmegaConf
 from graspnetAPI import GraspNet
-from util.transform import create_mat, mat2grasp
+from diffusion_grasp.utils.transforms import create_mat, mat2grasp
 
 class GraspDataset(Dataset):
     

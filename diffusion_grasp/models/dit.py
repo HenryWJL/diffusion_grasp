@@ -7,7 +7,7 @@ import torch
 from torch import nn
 from einops import repeat
 from typing import Optional
-from diffusion_grasp.model.common import Mlp, Attention
+from diffusion_grasp.models.common import Mlp, Attention
 
 # https://github.com/HenryWJL/DiT/blob/main/models.py#L19
 def modulate(

@@ -8,7 +8,7 @@ import torch.nn.functional as F
 from torch.autograd import Variable
 from typing import Optional, Union, Tuple
 from einops import repeat
-from diffusion_grasp.model.common import Attention
+from diffusion_grasp.models.common import Attention
 
 
 def exists(val):
